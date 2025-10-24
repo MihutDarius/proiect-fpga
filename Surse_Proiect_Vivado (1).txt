@@ -1,0 +1,614 @@
+--------------------------------------------------------------------------------
+FIȘIER: ProiectSCIDBun/ProiectSCIDBun.runs/synth_1/.Xil/FSM_propImpl.xdc
+--------------------------------------------------------------------------------
+set_property SRC_FILE_INFO {cfile:G:/Vivado/ProiectChio/ProiectSCIDBun/ProiectSCIDBun.srcs/constrs_1/new/constr.xdc rfile:../../../ProiectSCIDBun.srcs/constrs_1/new/constr.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {sw[0]}]
+set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports {sw[1]}]
+set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports {sw[2]}]
+set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W17   IOSTANDARD LVCMOS33 } [get_ports {sw[3]}]
+set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33 } [get_ports {sw[4]}]
+set_property src_info {type:XDC file:1 line:17 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports {sw[5]}]
+set_property src_info {type:XDC file:1 line:18 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W14   IOSTANDARD LVCMOS33 } [get_ports {sw[6]}]
+set_property src_info {type:XDC file:1 line:19 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports {sw[7]}]
+set_property src_info {type:XDC file:1 line:20 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V2    IOSTANDARD LVCMOS33 } [get_ports {sw[8]}]
+set_property src_info {type:XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T3    IOSTANDARD LVCMOS33 } [get_ports {sw[9]}]
+set_property src_info {type:XDC file:1 line:22 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T2    IOSTANDARD LVCMOS33 } [get_ports {sw[10]}]
+set_property src_info {type:XDC file:1 line:23 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R3    IOSTANDARD LVCMOS33 } [get_ports {sw[11]}]
+set_property src_info {type:XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W2    IOSTANDARD LVCMOS33 } [get_ports {sw[12]}]
+set_property src_info {type:XDC file:1 line:25 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U1    IOSTANDARD LVCMOS33 } [get_ports {sw[13]}]
+set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T1    IOSTANDARD LVCMOS33 } [get_ports {sw[14]}]
+set_property src_info {type:XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R2    IOSTANDARD LVCMOS33 } [get_ports {sw[15]}]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {led[0]}]
+set_property src_info {type:XDC file:1 line:32 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN E19   IOSTANDARD LVCMOS33 } [get_ports {led[1]}]
+set_property src_info {type:XDC file:1 line:33 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U19   IOSTANDARD LVCMOS33 } [get_ports {led[2]}]
+set_property src_info {type:XDC file:1 line:34 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V19   IOSTANDARD LVCMOS33 } [get_ports {led[3]}]
+set_property src_info {type:XDC file:1 line:35 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W18   IOSTANDARD LVCMOS33 } [get_ports {led[4]}]
+set_property src_info {type:XDC file:1 line:36 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U15   IOSTANDARD LVCMOS33 } [get_ports {led[5]}]
+set_property src_info {type:XDC file:1 line:37 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports {led[6]}]
+set_property src_info {type:XDC file:1 line:38 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V14   IOSTANDARD LVCMOS33 } [get_ports {led[7]}]
+set_property src_info {type:XDC file:1 line:39 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V13   IOSTANDARD LVCMOS33 } [get_ports {led[8]}]
+set_property src_info {type:XDC file:1 line:40 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V3    IOSTANDARD LVCMOS33 } [get_ports {led[9]}]
+set_property src_info {type:XDC file:1 line:41 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W3    IOSTANDARD LVCMOS33 } [get_ports {led[10]}]
+set_property src_info {type:XDC file:1 line:42 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U3    IOSTANDARD LVCMOS33 } [get_ports {led[11]}]
+set_property src_info {type:XDC file:1 line:43 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN P3    IOSTANDARD LVCMOS33 } [get_ports {led[12]}]
+set_property src_info {type:XDC file:1 line:44 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN N3    IOSTANDARD LVCMOS33 } [get_ports {led[13]}]
+set_property src_info {type:XDC file:1 line:45 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN P1    IOSTANDARD LVCMOS33 } [get_ports {led[14]}]
+set_property src_info {type:XDC file:1 line:46 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN L1    IOSTANDARD LVCMOS33 } [get_ports {led[15]}]
+set_property src_info {type:XDC file:1 line:50 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W7   IOSTANDARD LVCMOS33 } [get_ports {seg[0]}]
+set_property src_info {type:XDC file:1 line:51 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W6   IOSTANDARD LVCMOS33 } [get_ports {seg[1]}]
+set_property src_info {type:XDC file:1 line:52 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U8   IOSTANDARD LVCMOS33 } [get_ports {seg[2]}]
+set_property src_info {type:XDC file:1 line:53 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V8   IOSTANDARD LVCMOS33 } [get_ports {seg[3]}]
+set_property src_info {type:XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U5   IOSTANDARD LVCMOS33 } [get_ports {seg[4]}]
+set_property src_info {type:XDC file:1 line:55 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V5   IOSTANDARD LVCMOS33 } [get_ports {seg[5]}]
+set_property src_info {type:XDC file:1 line:56 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U7   IOSTANDARD LVCMOS33 } [get_ports {seg[6]}]
+set_property src_info {type:XDC file:1 line:58 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V7   IOSTANDARD LVCMOS33 } [get_ports dp]
+set_property src_info {type:XDC file:1 line:60 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U2   IOSTANDARD LVCMOS33 } [get_ports {an[0]}]
+set_property src_info {type:XDC file:1 line:61 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U4   IOSTANDARD LVCMOS33 } [get_ports {an[1]}]
+set_property src_info {type:XDC file:1 line:62 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V4   IOSTANDARD LVCMOS33 } [get_ports {an[2]}]
+set_property src_info {type:XDC file:1 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W4   IOSTANDARD LVCMOS33 } [get_ports {an[3]}]
+set_property src_info {type:XDC file:1 line:68 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T18   IOSTANDARD LVCMOS33 } [get_ports rst]
+
+
+--------------------------------------------------------------------------------
+FIȘIER: ProiectSCIDBun/ProiectSCIDBun.srcs/constrs_1/new/constr.xdc
+--------------------------------------------------------------------------------
+## This file is a general .xdc for the Basys3 rev B board
+## To use it in a project:
+## - uncomment the lines corresponding to used pins
+## - rename the used ports (in each line, after get_ports) according to the top level signal names in the project
+
+## Clock signal
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk]
+
+
+## Switches
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {sw[0]}]
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports {sw[1]}]
+set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports {sw[2]}]
+set_property -dict { PACKAGE_PIN W17   IOSTANDARD LVCMOS33 } [get_ports {sw[3]}]
+set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33 } [get_ports {sw[4]}]
+set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports {sw[5]}]
+set_property -dict { PACKAGE_PIN W14   IOSTANDARD LVCMOS33 } [get_ports {sw[6]}]
+set_property -dict { PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports {sw[7]}]
+set_property -dict { PACKAGE_PIN V2    IOSTANDARD LVCMOS33 } [get_ports {sw[8]}]
+set_property -dict { PACKAGE_PIN T3    IOSTANDARD LVCMOS33 } [get_ports {sw[9]}]
+set_property -dict { PACKAGE_PIN T2    IOSTANDARD LVCMOS33 } [get_ports {sw[10]}]
+set_property -dict { PACKAGE_PIN R3    IOSTANDARD LVCMOS33 } [get_ports {sw[11]}]
+set_property -dict { PACKAGE_PIN W2    IOSTANDARD LVCMOS33 } [get_ports {sw[12]}]
+set_property -dict { PACKAGE_PIN U1    IOSTANDARD LVCMOS33 } [get_ports {sw[13]}]
+set_property -dict { PACKAGE_PIN T1    IOSTANDARD LVCMOS33 } [get_ports {sw[14]}]
+set_property -dict { PACKAGE_PIN R2    IOSTANDARD LVCMOS33 } [get_ports {sw[15]}]
+
+
+## LEDs
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {led[0]}]
+set_property -dict { PACKAGE_PIN E19   IOSTANDARD LVCMOS33 } [get_ports {led[1]}]
+set_property -dict { PACKAGE_PIN U19   IOSTANDARD LVCMOS33 } [get_ports {led[2]}]
+set_property -dict { PACKAGE_PIN V19   IOSTANDARD LVCMOS33 } [get_ports {led[3]}]
+set_property -dict { PACKAGE_PIN W18   IOSTANDARD LVCMOS33 } [get_ports {led[4]}]
+set_property -dict { PACKAGE_PIN U15   IOSTANDARD LVCMOS33 } [get_ports {led[5]}]
+set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports {led[6]}]
+set_property -dict { PACKAGE_PIN V14   IOSTANDARD LVCMOS33 } [get_ports {led[7]}]
+set_property -dict { PACKAGE_PIN V13   IOSTANDARD LVCMOS33 } [get_ports {led[8]}]
+set_property -dict { PACKAGE_PIN V3    IOSTANDARD LVCMOS33 } [get_ports {led[9]}]
+set_property -dict { PACKAGE_PIN W3    IOSTANDARD LVCMOS33 } [get_ports {led[10]}]
+set_property -dict { PACKAGE_PIN U3    IOSTANDARD LVCMOS33 } [get_ports {led[11]}]
+set_property -dict { PACKAGE_PIN P3    IOSTANDARD LVCMOS33 } [get_ports {led[12]}]
+set_property -dict { PACKAGE_PIN N3    IOSTANDARD LVCMOS33 } [get_ports {led[13]}]
+set_property -dict { PACKAGE_PIN P1    IOSTANDARD LVCMOS33 } [get_ports {led[14]}]
+set_property -dict { PACKAGE_PIN L1    IOSTANDARD LVCMOS33 } [get_ports {led[15]}]
+
+
+##7 Segment Display
+set_property -dict { PACKAGE_PIN W7   IOSTANDARD LVCMOS33 } [get_ports {seg[0]}]
+set_property -dict { PACKAGE_PIN W6   IOSTANDARD LVCMOS33 } [get_ports {seg[1]}]
+set_property -dict { PACKAGE_PIN U8   IOSTANDARD LVCMOS33 } [get_ports {seg[2]}]
+set_property -dict { PACKAGE_PIN V8   IOSTANDARD LVCMOS33 } [get_ports {seg[3]}]
+set_property -dict { PACKAGE_PIN U5   IOSTANDARD LVCMOS33 } [get_ports {seg[4]}]
+set_property -dict { PACKAGE_PIN V5   IOSTANDARD LVCMOS33 } [get_ports {seg[5]}]
+set_property -dict { PACKAGE_PIN U7   IOSTANDARD LVCMOS33 } [get_ports {seg[6]}]
+
+set_property -dict { PACKAGE_PIN V7   IOSTANDARD LVCMOS33 } [get_ports dp]
+
+set_property -dict { PACKAGE_PIN U2   IOSTANDARD LVCMOS33 } [get_ports {an[0]}]
+set_property -dict { PACKAGE_PIN U4   IOSTANDARD LVCMOS33 } [get_ports {an[1]}]
+set_property -dict { PACKAGE_PIN V4   IOSTANDARD LVCMOS33 } [get_ports {an[2]}]
+set_property -dict { PACKAGE_PIN W4   IOSTANDARD LVCMOS33 } [get_ports {an[3]}]
+
+
+##Buttons
+#set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports btnC]
+set_property -dict { PACKAGE_PIN T18   IOSTANDARD LVCMOS33 } [get_ports rst]
+#set_property -dict { PACKAGE_PIN W19   IOSTANDARD LVCMOS33 } [get_ports btnL]
+#set_property -dict { PACKAGE_PIN T17   IOSTANDARD LVCMOS33 } [get_ports btnR]
+#set_property -dict { PACKAGE_PIN U17   IOSTANDARD LVCMOS33 } [get_ports btnD]
+
+
+##Pmod Header JA
+#set_property -dict { PACKAGE_PIN J1   IOSTANDARD LVCMOS33 } [get_ports {JA[0]}];#Sch name = JA1
+#set_property -dict { PACKAGE_PIN L2   IOSTANDARD LVCMOS33 } [get_ports {JA[1]}];#Sch name = JA2
+#set_property -dict { PACKAGE_PIN J2   IOSTANDARD LVCMOS33 } [get_ports {JA[2]}];#Sch name = JA3
+#set_property -dict { PACKAGE_PIN G2   IOSTANDARD LVCMOS33 } [get_ports {JA[3]}];#Sch name = JA4
+#set_property -dict { PACKAGE_PIN H1   IOSTANDARD LVCMOS33 } [get_ports {JA[4]}];#Sch name = JA7
+#set_property -dict { PACKAGE_PIN K2   IOSTANDARD LVCMOS33 } [get_ports {JA[5]}];#Sch name = JA8
+#set_property -dict { PACKAGE_PIN H2   IOSTANDARD LVCMOS33 } [get_ports {JA[6]}];#Sch name = JA9
+#set_property -dict { PACKAGE_PIN G3   IOSTANDARD LVCMOS33 } [get_ports {JA[7]}];#Sch name = JA10
+
+##Pmod Header JB
+#set_property -dict { PACKAGE_PIN A14   IOSTANDARD LVCMOS33 } [get_ports {JB[0]}];#Sch name = JB1
+#set_property -dict { PACKAGE_PIN A16   IOSTANDARD LVCMOS33 } [get_ports {JB[1]}];#Sch name = JB2
+#set_property -dict { PACKAGE_PIN B15   IOSTANDARD LVCMOS33 } [get_ports {JB[2]}];#Sch name = JB3
+#set_property -dict { PACKAGE_PIN B16   IOSTANDARD LVCMOS33 } [get_ports {JB[3]}];#Sch name = JB4
+#set_property -dict { PACKAGE_PIN A15   IOSTANDARD LVCMOS33 } [get_ports {JB[4]}];#Sch name = JB7
+#set_property -dict { PACKAGE_PIN A17   IOSTANDARD LVCMOS33 } [get_ports {JB[5]}];#Sch name = JB8
+#set_property -dict { PACKAGE_PIN C15   IOSTANDARD LVCMOS33 } [get_ports {JB[6]}];#Sch name = JB9
+#set_property -dict { PACKAGE_PIN C16   IOSTANDARD LVCMOS33 } [get_ports {JB[7]}];#Sch name = JB10
+
+##Pmod Header JC
+#set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports {JC[0]}];#Sch name = JC1
+#set_property -dict { PACKAGE_PIN M18   IOSTANDARD LVCMOS33 } [get_ports {JC[1]}];#Sch name = JC2
+#set_property -dict { PACKAGE_PIN N17   IOSTANDARD LVCMOS33 } [get_ports {JC[2]}];#Sch name = JC3
+#set_property -dict { PACKAGE_PIN P18   IOSTANDARD LVCMOS33 } [get_ports {JC[3]}];#Sch name = JC4
+#set_property -dict { PACKAGE_PIN L17   IOSTANDARD LVCMOS33 } [get_ports {JC[4]}];#Sch name = JC7
+#set_property -dict { PACKAGE_PIN M19   IOSTANDARD LVCMOS33 } [get_ports {JC[5]}];#Sch name = JC8
+#set_property -dict { PACKAGE_PIN P17   IOSTANDARD LVCMOS33 } [get_ports {JC[6]}];#Sch name = JC9
+#set_property -dict { PACKAGE_PIN R18   IOSTANDARD LVCMOS33 } [get_ports {JC[7]}];#Sch name = JC10
+
+##Pmod Header JXADC
+#set_property -dict { PACKAGE_PIN J3   IOSTANDARD LVCMOS33 } [get_ports {JXADC[0]}];#Sch name = XA1_P
+#set_property -dict { PACKAGE_PIN L3   IOSTANDARD LVCMOS33 } [get_ports {JXADC[1]}];#Sch name = XA2_P
+#set_property -dict { PACKAGE_PIN M2   IOSTANDARD LVCMOS33 } [get_ports {JXADC[2]}];#Sch name = XA3_P
+#set_property -dict { PACKAGE_PIN N2   IOSTANDARD LVCMOS33 } [get_ports {JXADC[3]}];#Sch name = XA4_P
+#set_property -dict { PACKAGE_PIN K3   IOSTANDARD LVCMOS33 } [get_ports {JXADC[4]}];#Sch name = XA1_N
+#set_property -dict { PACKAGE_PIN M3   IOSTANDARD LVCMOS33 } [get_ports {JXADC[5]}];#Sch name = XA2_N
+#set_property -dict { PACKAGE_PIN M1   IOSTANDARD LVCMOS33 } [get_ports {JXADC[6]}];#Sch name = XA3_N
+#set_property -dict { PACKAGE_PIN N1   IOSTANDARD LVCMOS33 } [get_ports {JXADC[7]}];#Sch name = XA4_N
+
+
+##VGA Connector
+#set_property -dict { PACKAGE_PIN G19   IOSTANDARD LVCMOS33 } [get_ports {vgaRed[0]}]
+#set_property -dict { PACKAGE_PIN H19   IOSTANDARD LVCMOS33 } [get_ports {vgaRed[1]}]
+#set_property -dict { PACKAGE_PIN J19   IOSTANDARD LVCMOS33 } [get_ports {vgaRed[2]}]
+#set_property -dict { PACKAGE_PIN N19   IOSTANDARD LVCMOS33 } [get_ports {vgaRed[3]}]
+#set_property -dict { PACKAGE_PIN N18   IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[0]}]
+#set_property -dict { PACKAGE_PIN L18   IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[1]}]
+#set_property -dict { PACKAGE_PIN K18   IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[2]}]
+#set_property -dict { PACKAGE_PIN J18   IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[3]}]
+#set_property -dict { PACKAGE_PIN J17   IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[0]}]
+#set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[1]}]
+#set_property -dict { PACKAGE_PIN G17   IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[2]}]
+#set_property -dict { PACKAGE_PIN D17   IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[3]}]
+#set_property -dict { PACKAGE_PIN P19   IOSTANDARD LVCMOS33 } [get_ports Hsync]
+#set_property -dict { PACKAGE_PIN R19   IOSTANDARD LVCMOS33 } [get_ports Vsync]
+
+
+##USB-RS232 Interface
+#set_property -dict { PACKAGE_PIN B18   IOSTANDARD LVCMOS33 } [get_ports RsRx]
+#set_property -dict { PACKAGE_PIN A18   IOSTANDARD LVCMOS33 } [get_ports RsTx]
+
+
+##USB HID (PS/2)
+#set_property -dict { PACKAGE_PIN C17   IOSTANDARD LVCMOS33   PULLUP true } [get_ports PS2Clk]
+#set_property -dict { PACKAGE_PIN B17   IOSTANDARD LVCMOS33   PULLUP true } [get_ports PS2Data]
+
+
+##Quad SPI Flash
+##Note that CCLK_0 cannot be placed in 7 series devices. You can access it using the
+##STARTUPE2 primitive.
+#set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports {QspiDB[0]}]
+#set_property -dict { PACKAGE_PIN D19   IOSTANDARD LVCMOS33 } [get_ports {QspiDB[1]}]
+#set_property -dict { PACKAGE_PIN G18   IOSTANDARD LVCMOS33 } [get_ports {QspiDB[2]}]
+#set_property -dict { PACKAGE_PIN F18   IOSTANDARD LVCMOS33 } [get_ports {QspiDB[3]}]
+#set_property -dict { PACKAGE_PIN K19   IOSTANDARD LVCMOS33 } [get_ports QspiCSn]
+
+
+## Configuration options, can be used for all designs
+set_property CONFIG_VOLTAGE 3.3 [current_design]
+set_property CFGBVS VCCO [current_design]
+
+## SPI configuration mode options for QSPI boot, can be used for all designs
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
+set_property BITSTREAM.CONFIG.CONFIGRATE 33 [current_design]
+set_property CONFIG_MODE SPIx4 [current_design]
+
+--------------------------------------------------------------------------------
+FIȘIER: ProiectSCIDBun/ProiectSCIDBun.srcs/sources_1/new/driver7seg.vhd
+--------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity driver7seg is
+    Port ( clk : in STD_LOGIC; --100MHz board clock input
+           Din : in STD_LOGIC_VECTOR (15 downto 0); --16 bit binary data for 4 displays
+           an : out STD_LOGIC_VECTOR (3 downto 0); --anode outputs selecting individual displays 3 to 0
+           seg : out STD_LOGIC_VECTOR (0 to 6); -- cathode outputs for selecting LED-s in each display
+           dp_in : in STD_LOGIC_VECTOR (3 downto 0); --decimal point input values
+           dp_out : out STD_LOGIC; --selected decimal point sent to cathodes
+           rst : in STD_LOGIC); --global reset
+end driver7seg;
+
+architecture Behavioral of driver7seg is
+
+signal clk1kHz : STD_LOGIC;
+signal state : STD_LOGIC_VECTOR(16 downto 0);
+signal addr : STD_LOGIC_VECTOR(1 downto 0);
+signal cseg : STD_LOGIC_VECTOR(3 downto 0);
+
+begin
+
+-- frequency divider by 100k to generate 1kHz anode sweeping clock
+-- counting from 0 to 99999, output is MSB 
+-- 17 counter state length needed 
+div1kHz: process(clk, rst)
+begin
+   if rst = '1' then 
+        state <= '0' & X"0000";
+   else
+     if rising_edge(clk) then
+        if state = '1' & X"869F" then --if counte reaches 99999
+            state <= '0' & X"0000"; -- reset back to 0
+        else
+            state <= state+1;
+        end if;
+     end if;
+   end if;         
+end process;
+
+clk1Khz <= state(16); --assign MSB to frequency divider output
+
+
+-- 2 bit counter generating 4 addresses for display multiplexing
+counter_2bits: process(clk1kHz)
+begin
+  if rising_edge(clk1kHz) then       
+           addr <= addr+1;   
+  end if;   
+end process;
+
+-- 2 to 4 decoder used to select one display of 4 at each sweeping address generated by the 2 bit counter 
+-- anodes are active low, decoder must provide '0' for activation
+dcd3_8: process(addr)
+begin
+  case addr is
+      when "00" =>  an <= "0111";       
+      when "01" =>  an <= "1011"; 
+      when "10" =>  an <= "1101"; 
+      when "11" =>  an <= "1110"; 
+      when others => an <= "1111";
+   end case; 
+end process;
+
+--4 input multiplexer to select data to be sent to a single display
+--synchronzied with addr and display activation with the anodes
+data_mux4: process(addr,Din,dp_in)
+begin
+  case addr is
+      when "00" =>  cseg <= Din(15 downto 12); --sending 4 upper bits targeted at display 3  
+                    dp_out <= not dp_in(3); -- lighting up decimal point on display 3
+      when "01" =>  cseg <= Din(11 downto 8); --sending next 4 bits targeted at display 2
+                    dp_out <= not dp_in(2); -- lighting up decimal point on display 2
+      when "10" =>  cseg <= Din(7 downto 4);  -- ....
+                    dp_out <= not dp_in(1);
+      when "11" =>  cseg <= Din(3 downto 0); -- ....
+                    dp_out <= not dp_in(0);
+      when others => cseg <= "XXXX";
+                     dp_out <= 'X';
+   end case; 
+end process;
+
+--binary to 7 segment decoder
+--cathodes also active low, provide '0' for a lit up segment or decimal point
+dcd7seg:process(cseg)
+begin
+  case cseg is
+      when "0000" =>  seg <= "0000001"; 
+      when "0001" =>  seg <= "1001111"; 
+      when "0010" =>  seg <= "0010010"; 
+      when "0011" =>  seg <= "0000110"; 
+      when "0100" =>  seg <= "1001100"; 
+      when "0101" =>  seg <= "0100100"; 
+      when "0110" =>  seg <= "0100000"; 
+      when "0111" =>  seg <= "0001111";
+      when "1000" =>  seg <= "0000000"; 
+      when "1001" =>  seg <= "0000100"; 
+      when "1010" =>  seg <= "0000010"; 
+      when "1011" =>  seg <= "1100000"; 
+      when "1100" =>  seg <= "0110001"; 
+      when "1101" =>  seg <= "1000010"; 
+      when "1110" =>  seg <= "0110000"; 
+      when "1111" =>  seg <= "0111000";
+      when others => seg <= "XXXXXXX";
+   end case; 
+end process;
+
+end Behavioral;
+
+--------------------------------------------------------------------------------
+FIȘIER: ProiectSCIDBun/ProiectSCIDBun.srcs/sources_1/new/FSM.vhd
+--------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity FSM is
+    Port ( rst : in STD_LOGIC;
+           clk : in STD_LOGIC;
+           sw : in STD_LOGIC_VECTOR (15 downto 0);
+           led : out STD_LOGIC_VECTOR (15 downto 0);
+           an : out STD_LOGIC_VECTOR (3 downto 0); --anode outputs selecting individual 
+           seg : out STD_LOGIC_VECTOR (0 to 6); -- cathode outputs for selecting LED-s in each display
+           dp : out STD_LOGIC);
+end FSM;
+
+architecture Behavioral of FSM is
+
+--Entitatea driverului transformata in componenta
+component driver7seg is
+    Port ( clk : in STD_LOGIC;
+           Din : in STD_LOGIC_VECTOR (15 downto 0);
+           an : out STD_LOGIC_VECTOR (3 downto 0);
+           seg : out STD_LOGIC_VECTOR (0 to 6);
+           dp_in : in STD_LOGIC_VECTOR (3 downto 0);
+           dp_out : out STD_LOGIC;
+           rst : in STD_LOGIC);
+end component driver7seg;
+
+--declararea starilor
+type states is (start, cnt_joc, cnt_scor, get_rnd, led_on, led_off, sw_on, sw_off, final);
+signal current_state, next_state : states;
+
+signal i : integer;
+signal rnd: std_logic_vector (3 downto 0);
+signal score : std_logic_vector (15 downto 0);
+signal timer : integer range 0 to 60 := 60; -- Timer de 60 de secunde
+signal timer_display : std_logic_vector(15 downto 0); -- Timpul ramas afisat pe display
+signal game_over : std_logic := '0'; -- Semnal pentru finalizarea jocului
+
+signal div : std_logic;
+signal clk_div : integer range 0 to 50000000 := 0;
+signal afisaj : std_logic_vector(15 downto 0);
+
+begin
+
+MemoriaCis: process(rst, clk)
+begin
+  if rst = '1' then
+    current_state <= start;
+  elsif rising_edge(clk) then
+    current_state <= next_state;
+  end if;
+end process;
+
+-- Circuit combinational
+circuit : process(current_state, sw, i, game_over)
+begin
+    case current_state is 
+        when start =>
+            if game_over = '1' then
+                next_state <= final; -- Daca jocul s-a terminat, trece la starea finala
+            else
+                next_state <= cnt_joc; -- Altfel, incepe
+            end if;
+        when cnt_joc => next_state <= get_rnd; -- Generare led-uri aleatorii
+        when get_rnd => next_state <= led_on; -- Aprindere led
+        when led_on => next_state <= sw_on; -- Verificam starea switch-ului
+        when sw_on =>
+            if sw(i) = '1' then
+                next_state <= sw_off; -- Daca switch-ul este apasat, trece la starea de inchidere a LED-ului
+            else
+                next_state <= sw_on; -- Altfel, ramane in aceeasi stare
+            end if;
+        when sw_off =>
+            if sw(i) = '0' then
+                next_state <= led_off; -- Daca switch-ul este eliberat, inchidem LED-ul
+            else
+                next_state <= sw_off; -- Altfel, ramane in aceeasi stare
+            end if;
+        when led_off => next_state <= cnt_scor; -- Trecerea la starea de numarare a scorului
+        when cnt_scor => next_state <= cnt_joc; -- Trecerea inapoi la inceputul jocului
+        when others => next_state <= start; -- Pentru orice alta stare, revenim la nceputul jocului
+    end case;
+end process;
+
+-- Proces lfsr - generam numere aleatorii
+lfsr : process(rst, clk)
+    variable shiftreg : std_logic_vector (15 downto 0) := x"abcd";
+    variable firstbit :std_logic;
+begin
+    if rst = '1' then
+        shiftreg := x"abcd";
+    elsif rising_edge(clk) then
+        firstbit := shiftreg(1) xnor shiftreg(0);
+        shiftreg := firstbit & shiftreg (15 downto 1);
+end if;
+    rnd <= shiftreg(3 downto 0);
+end process;
+
+-- Proces generare i
+generate_i : process(rst, clk)
+begin
+    if rst = '1' then
+        i <= 0;
+    elsif rising_edge(clk) then
+        if current_state = get_rnd then
+            i <= to_integer(unsigned(rnd));
+        end if;
+    end if; 
+end process;
+
+-- Generare led
+generate_led : process(rst, clk)
+begin
+    if rst = '1' then
+        led <= x"0000";
+    elsif rising_edge(clk) then
+        if current_state = led_on then
+            led(i) <= '1';
+        elsif current_state = led_off then
+            led(i) <= '0';
+        end if; 
+    end if; 
+end process;
+
+-- Generare scor
+generare_scor : process(rst,clk)
+    variable thousand : integer range 0 to 9 := 0;
+    variable hundred : integer range 0 to 9 := 0;
+    variable ten : integer range 0 to 9 := 0;
+    variable unit : integer range 0 to 9 := 0;
+begin
+    if rst = '1' then
+        thousand := 0;
+        hundred := 0;
+        ten := 0;
+        unit := 0;
+    elsif rising_edge(clk) then
+        if current_state = cnt_joc then
+            if unit = 9 then
+                unit := 0;
+                if ten = 9 then
+                    ten := 0;
+                    if hundred = 9 then
+                        hundred :=0;
+                        if thousand = 9 then
+                            thousand := 0;
+                        else
+                            thousand:= thousand + 1;
+                        end if; 
+                    else
+                         hundred := hundred + 1;
+                    end if; 
+                else
+                    ten := ten + 1;
+                end if; 
+            else
+                 unit := unit + 1;
+            end if; 
+        end if;
+    end if; 
+    
+score <= std_logic_vector(to_unsigned(thousand,4)) &
+std_logic_vector(to_unsigned(hundred,4)) &
+std_logic_vector(to_unsigned(ten,4)) &
+std_logic_vector(to_unsigned(unit,4));
+
+end process;
+
+-- Divizor de frecventa pentru clk
+clk_divizor : process(clk, rst)
+begin
+  if rst = '1' then
+    clk_div <= 0;
+    div <= '0';
+  elsif rising_edge(clk) then
+    if clk_div = 50000000 then
+      div <= not div;
+      clk_div <= 0;
+    else
+      clk_div <= clk_div + 1;
+    end if;
+  end if;
+end process;
+
+-- Timer joc
+timer_joc : process(div, rst)
+begin
+  if rst = '1' then
+    timer <= 60;
+    game_over <= '0';
+  elsif rising_edge(div) then
+    if timer > 0 then
+      timer <= timer - 1;
+    else
+      game_over <= '1';
+    end if;
+  end if;
+end process;
+
+-- Timer si display
+timer_disp: process(timer)
+  variable min_high : integer range 0 to 5;
+  variable min_low : integer range 0 to 9;
+  variable sec_high : integer range 0 to 5;
+  variable sec_low : integer range 0 to 9;
+begin
+  min_high := timer / 600 mod 10;
+  min_low := timer / 60 mod 10;
+  sec_high := timer / 10 mod 6;
+  sec_low := timer mod 10;
+
+  timer_display <= std_logic_vector(to_unsigned(min_high, 4)) &
+                   std_logic_vector(to_unsigned(min_low, 4)) &
+                   std_logic_vector(to_unsigned(sec_high, 4)) &
+                   std_logic_vector(to_unsigned(sec_low, 4));
+end process;
+
+-- Display cu multiplexor
+display_mux : process(game_over, timer_display, score)
+begin
+  if game_over = '1' then
+    afisaj <= score; -- Afiseaza scorul cand jocul s-a terminat
+  else
+    afisaj <= timer_display; -- Afiseaza timpul ramas in timpul jocului
+  end if;
+end process;
+
+u7seg : driver7seg port map (clk => clk,
+                             Din => afisaj,
+                             an => an,
+                             seg => seg,
+                             dp_in => (others => '0'),
+                             dp_out => dp,
+                             rst => rst);
+
+end Behavioral;
+
